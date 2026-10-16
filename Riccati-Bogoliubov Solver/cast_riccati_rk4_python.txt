@@ -1,7 +1,7 @@
 import numpy as np
 
-def run_dssd_rk4_riccati_solver():
-    print("=== DSSD PRODUCTION RK4 RICCATI-BOGOLIUBOV SOLVER ===")
+def run_cast_rk4_riccati_solver():
+    print("=== CAST PRODUCTION RK4 RICCATI-BOGOLIUBOV SOLVER ===")
     print("Resolving Sub-Planckian Mode Emergence with Sub-Cycle Stepping...")
 
     # Scaled Benchmark Parameters for Exact Numerical Resolution
@@ -64,4 +64,4 @@ def run_dssd_rk4_riccati_solver():
     print("========================================================\n")
 
 if __name__ == '__main__':
-    run_dssd_rk4_riccati_solver()
+    run_cast_rk4_riccati_solver()

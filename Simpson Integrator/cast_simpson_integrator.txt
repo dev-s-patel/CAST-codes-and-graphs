@@ -1,8 +1,8 @@
 import numpy as np
 from scipy.integrate import simpson
 
-def run_dssd_simpson_integrator():
-    print("=== DSSD PRODUCTION 3D BRILLOUIN ZONE SIMPSON INTEGRATOR ===")
+def run_cast_simpson_integrator():
+    print("=== CAST PRODUCTION 3D BRILLOUIN ZONE SIMPSON INTEGRATOR ===")
     print("Evaluating Orientation-Averaged Sub-Planckian Lattice Transfer Kernel...")
 
     N_theta = 120   # Even intervals for Simpson rule
@@ -60,4 +60,4 @@ def run_dssd_simpson_integrator():
     print("============================================================\n")
 
 if __name__ == '__main__':
-    run_dssd_simpson_integrator()
+    run_cast_simpson_integrator()
