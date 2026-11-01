@@ -6,7 +6,7 @@ Official computational reproduction suite for the maniscript:
 
 \*\*"Causal Automaton Spacetime: An Emergent Cellular Framework for Spacetime Dynamics, Quantum Correlations, and Cosmological Falsification"\*\*  
 
-\*Dev S. Patel (2026)\* | \*\*DOI:\*\* \[10.5281/zenodo.22916869](https://doi.org/10.5281/zenodo.22916869)
+\*Dev S. Patel (2026)\* | \*\*DOI:\*\* \[10.5281/zenodo.23743449](https://doi.org/10.5281/zenodo.23743449)
 
 
 
