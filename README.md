@@ -2,7 +2,7 @@
 
 
 
-Official computational reproduction suite for the preprint:  
+Official computational reproduction suite for the maniscript:  
 
 \*\*"Causal Automaton Spacetime: An Emergent Cellular Framework for Spacetime Dynamics, Quantum Correlations, and Cosmological Falsification"\*\*  
 
