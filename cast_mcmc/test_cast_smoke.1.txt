@@ -1,0 +1,2 @@
+#        weight    minuslogpost        A_planck       chi2__CMB   minuslogprior minuslogprior__0            chi2 chi2__planck_2018_lowl.TT chi2__planck_2018_lowl.EE chi2__planck_2018_highl_plik.TTTEEE_lite
+              1        497.5333       1.0000702       1005.2109      -5.0721318       -5.0721318       1005.2109                 23.443781                  396.1269                                585.64018

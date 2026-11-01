@@ -1,0 +1,192 @@
+theory:
+  cast_theory.cast_theory:
+    version: 2.0.5
+    path: null
+    speed: 0.3
+    stop_at_error: false
+    extra_args:
+      lens_potential_accuracy: 1
+    ignore_obsolete: false
+    external_primordial_pk: false
+    use_non_linear_ratio: false
+    renames:
+      omegabh2: ombh2
+      omegach2: omch2
+      omegal: omega_de
+      omegak: omk
+      yhe: YHe
+      yheused: YHe
+      YpBBN: Y_p
+    python_path: .
+    input_params:
+    - As
+    - ns
+    - k_c
+    - xi_cast
+    - ombh2
+    - omch2
+    - H0
+    - tau
+    output_params: []
+likelihood:
+  planck_2018_lowl.TT:
+    lmin: 2
+    lmax: 29
+    type: CMB
+    aliases:
+    - lowT
+    speed: -1
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+  planck_2018_lowl.EE:
+    type: CMB
+    aliases:
+    - lowE
+    speed: -1
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+  planck_2018_highl_plik.TTTEEE_lite:
+    path: null
+    clik_file: baseline/plc_3.0/hi_l/plik_lite/plik_lite_v22_TTTEEE.clik
+    product_id: '151902'
+    commands: null
+    aliases:
+    - plikHM_TTTEEE
+    speed: 500
+    type: CMB
+    stop_at_error: false
+    version: null
+    input_params:
+    - A_planck
+    output_params: []
+params:
+  ombh2:
+    prior:
+      min: 0.019
+      max: 0.025
+    ref: 0.02237
+    proposal: 0.00015
+    latex: \Omega_b h^2
+    renames:
+    - omegabh2
+  omch2:
+    prior:
+      min: 0.09
+      max: 0.15
+    ref: 0.12
+    proposal: 0.0012
+    latex: \Omega_c h^2
+    renames:
+    - omegach2
+  H0:
+    prior:
+      min: 60
+      max: 80
+    ref: 67.36
+    proposal: 0.5
+    latex: H_0
+  tau:
+    prior:
+      min: 0.03
+      max: 0.09
+    ref: 0.0544
+    proposal: 0.004
+    latex: \tau_{\mathrm{reio}}
+  As:
+    prior:
+      min: 1.5e-09
+      max: 2.7e-09
+    ref: 2.1e-09
+    proposal: 3.0e-11
+    latex: A_s
+  ns:
+    prior:
+      min: 0.92
+      max: 1.02
+    ref: 0.9649
+    proposal: 0.004
+    latex: n_s
+  k_c:
+    prior:
+      min: 0.08
+      max: 0.6
+    ref: 0.25
+    proposal: 0.03
+    latex: k_c
+  xi_cast:
+    prior:
+      min: 0.0
+      max: 0.12
+    ref: 0.055
+    proposal: 0.01
+    latex: \xi_{\mathrm{cast}}
+  A_planck:
+    prior:
+      dist: norm
+      loc: 1
+      scale: 0.0025
+    ref:
+      dist: norm
+      loc: 1
+      scale: 0.002
+    proposal: 0.0005
+    latex: y_\mathrm{cal}
+    renames: calPlanck
+  chi2__CMB:
+    latex: \chi^2_\mathrm{CMB}
+    derived: true
+sampler:
+  mcmc:
+    sampler_type: mcmc
+    supports_periodic_params: true
+    burn_in: 50
+    max_tries: 50000
+    covmat: null
+    covmat_params: null
+    proposal_scale: 2.4
+    output_every: 60s
+    learn_every: 40d
+    temperature: 1
+    learn_proposal: true
+    learn_proposal_Rminus1_max: 2.0
+    learn_proposal_Rminus1_max_early: 30.0
+    learn_proposal_Rminus1_min: 0.0
+    max_samples: .inf
+    Rminus1_stop: 0.03
+    Rminus1_cl_stop: 0.05
+    Rminus1_cl_level: 0.95
+    Rminus1_single_split: 4
+    measure_speeds: true
+    oversample_power: 0.4
+    oversample_thin: true
+    drag: false
+    blocking:
+    - - 1
+      - - ombh2
+        - omch2
+        - H0
+        - tau
+    - - 1
+      - - As
+        - ns
+        - k_c
+        - xi_cast
+    - - 8
+      - - A_planck
+    callback_function: null
+    callback_every: null
+    seed: null
+    check_every: null
+    oversample: null
+    drag_limits: null
+    fallback_covmat_scale: 4
+    version: 3.6.2
+packages_path: ./packages
+output: cast_planck
+version: 3.6.2
