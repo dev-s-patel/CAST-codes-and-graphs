@@ -5,7 +5,7 @@ Official computational reproduction suite and Bayesian Markov Chain Monte Carlo 
 * **Part I (Foundations):** *"Causal Automaton Spacetime I: Emergent Spacetime Continuum, Quantum Correlations, and Gravitational Dynamics from Reversible Cellular Networks"*  
   **DOI:** [10.5281/zenodo.23743449](https://doi.org/10.5281/zenodo.23743449) | *Target Journal: Foundations of Physics*
 
-* **Part II (Cosmology):** *"Causal Automaton Spacetime II: Cosmological Perturbation Theory, Planck Likelihood Constraints, and Discrete Lattice Regularization Signatures"*  
+* **Part II (Cosmology):** *"Causal Automaton Spacetime II: Cosmological Perturbation Theory, Planck Likelihood Constraints, and Cellular Regularization Signatures"*  
   **DOI:** [10.5281/zenodo.23864786](https://doi.org/10.5281/zenodo.23864786) | *Target Journal: JCAP*
 
 ---
