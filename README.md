@@ -2,10 +2,11 @@
 
 Official computational reproduction suite and Bayesian Markov Chain Monte Carlo (MCMC) pipeline for the companion research series:
 
-* **Part II (Cosmology):** *"Causal Automaton Spacetime II: Cosmological Perturbation Theory, Planck Likelihood Constraints, and Discrete Lattice Regularization Signatures"*  
-  **DOI:** [10.5281/zenodo.23864786](https://doi.org/10.5281/zenodo.23864786) | *Target Journal: JCAP*
 * **Part I (Foundations):** *"Causal Automaton Spacetime I: Emergent Spacetime Continuum, Quantum Correlations, and Gravitational Dynamics from Reversible Cellular Networks"*  
   **DOI:** [10.5281/zenodo.23743449](https://doi.org/10.5281/zenodo.23743449) | *Target Journal: Foundations of Physics*
+
+* **Part II (Cosmology):** *"Causal Automaton Spacetime II: Cosmological Perturbation Theory, Planck Likelihood Constraints, and Cellular Regularization Signatures"*  
+  **DOI:** [10.5281/zenodo.23864786](https://doi.org/10.5281/zenodo.23864786) | *Target Journal: JCAP*
 
 ---
 
@@ -120,13 +121,6 @@ pip install numpy scipy matplotlib camb cobaya getdist pyyaml
 If you use or verify this computational pipeline, please cite the companion manuscripts:
 
 ```bibtex
-@article{patel2026cast2,
-  title={Causal Automaton Spacetime II: Cosmological Perturbation Theory, Planck Likelihood Constraints, and Discrete Lattice Regularization Signatures},
-  author={Patel, Dev S.},
-  journal={Submitted to Journal of Cosmology and Astroparticle Physics (JCAP)},
-  year={2026},
-  doi={10.5281/zenodo.23864786}
-}
 
 @article{patel2026cast1,
   title={Causal Automaton Spacetime I: Emergent Spacetime Continuum, Quantum Correlations, and Gravitational Dynamics from Reversible Cellular Networks},
@@ -134,6 +128,14 @@ If you use or verify this computational pipeline, please cite the companion manu
   journal={Submitted to Foundations of Physics},
   year={2026},
   doi={10.5281/zenodo.23743449}
+}
+
+@article{patel2026cast2,
+  title={Causal Automaton Spacetime II: Cosmological Perturbation Theory, Planck Likelihood Constraints, and Discrete Lattice Regularization Signatures},
+  author={Patel, Dev S.},
+  journal={Submitted to Journal of Cosmology and Astroparticle Physics (JCAP)},
+  year={2026},
+  doi={10.5281/zenodo.23864786}
 }
 ```
 
