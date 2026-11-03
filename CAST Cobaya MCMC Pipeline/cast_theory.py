@@ -3,7 +3,7 @@ from cobaya.theories.camb.camb import CAMB, CAMBOutputs
 
 class cast_theory(CAMB):
     r"""
-    Sub-Planckian Cellular Automata Spacetime (CAST) Theory Wrapper.
+    Causal Automaton Spacetime (CAST) Theory Wrapper.
     Injects 3D Brillouin lattice dispersion transfer function into CAMB initial power table.
     """
     def get_can_support_params(self):
