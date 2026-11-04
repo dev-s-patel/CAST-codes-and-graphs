@@ -27,7 +27,7 @@ This repository contains the numerical verification algorithms, Boltzmann transf
 ### 0. Clone and Install Dependencies
 
 ```bash
-git clone Https://github.com/dev-s-patel/CAST-Solvers-and-Figures
+git clone https://github.com/dev-s-patel/CAST-Solvers-and-Figures
 cd CAST-Solvers-and-Figures
 pip install -r requirements.txt
 ```
