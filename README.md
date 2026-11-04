@@ -3,10 +3,10 @@
 Official computational reproduction suite and Bayesian Markov Chain Monte Carlo (MCMC) pipeline for the companion research series:
 
 * **Part I (Foundations):** *"Causal Automaton Spacetime I: Emergent Spacetime Continuum, Quantum Correlations, and Gravitational Dynamics from Reversible Cellular Networks"*  
-  **DOI:** [10.5281/zenodo.23743449](https://doi.org/10.5281/zenodo.23743449) | *Target Journal: Foundations of Physics*
+  **DOI:** [10.5281/zenodo.23743449](https://doi.org/10.5281/zenodo.23743449)
 
 * **Part II (Cosmology):** *"Causal Automaton Spacetime II: Cosmological Perturbation Theory, Planck Likelihood Constraints, and Cellular Regularization Signatures"*  
-  **DOI:** [10.5281/zenodo.23864786](https://doi.org/10.5281/zenodo.23864786) | *Target Journal: JCAP*
+  **DOI:** [10.5281/zenodo.23864786](https://doi.org/10.5281/zenodo.23864786)
 
 ---
 
@@ -27,8 +27,8 @@ This repository contains the numerical verification algorithms, Boltzmann transf
 ### 0. Clone and Install Dependencies
 
 ```bash
-git clone https://github.com/dev-s-patel/CAST-codes-and-graphs.git
-cd CAST-codes-and-graphs
+git clone Https://github.com/dev-s-patel/CAST-Solvers-and-Figures
+cd CAST-Solvers-and-Figures
 pip install -r requirements.txt
 ```
 
